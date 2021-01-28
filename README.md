@@ -1,4 +1,4 @@
-# lxh-blog
+# l-blog
 
 ## Build Setup
 
