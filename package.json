@@ -6,7 +6,8 @@
     "dev": "nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate"
+    "generate": "nuxt-ts generate",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.1",
@@ -25,6 +26,7 @@
     "@nuxt/typescript-build": "^2.0.4",
     "@types/koa": "^2.11.7",
     "@types/koa-router": "^7.4.1",
+    "conventional-changelog-cli": "^2.1.1",
     "cz-customizable": "^6.3.0",
     "sass": "^1.32.5",
     "sass-loader": "^10.1.1"
