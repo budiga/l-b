@@ -25,7 +25,13 @@
     "@nuxt/typescript-build": "^2.0.4",
     "@types/koa": "^2.11.7",
     "@types/koa-router": "^7.4.1",
+    "cz-conventional-changelog": "^3.3.0",
     "sass": "^1.32.5",
     "sass-loader": "^10.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
