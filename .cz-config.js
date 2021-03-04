@@ -16,7 +16,7 @@ module.exports = {
   // override the messages, defaults are as follows
   messages: {
     type: '请选择提交类型:',
-    // scope: '请输入文件修改范围(可选):',
+    scope: '请输入文件修改范围(可选):',
     // used if allowCustomScopes is true
     customScope: '请输入修改范围(可选):',
     subject: '请简要描述提交(必填):',
@@ -27,7 +27,7 @@ module.exports = {
   },
   allowCustomScopes: true,
   // allowBreakingChanges: ['feat', 'fix'],
-  skipQuestions: ['body', 'footer'],
+  skipQuestions: ['body', 'footer', 'confirmCommit'],
   // limit subject length, commitlint默认是72
   subjectLimit: 72
 };
