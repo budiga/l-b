@@ -10,13 +10,21 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^2.0.1",
+    "@nuxtjs/axios": "^5.13.0",
     "ant-design-vue": "^1.7.2",
+    "consola": "^2.15.0",
     "core-js": "^3.8.2",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.0.0",
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.12",
     "@nuxt/typescript-build": "^2.0.4",
+    "@types/koa": "^2.11.7",
+    "@types/koa-router": "^7.4.1",
     "sass": "^1.32.5",
     "sass-loader": "^10.1.1"
   }

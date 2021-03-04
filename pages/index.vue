@@ -18,7 +18,7 @@
           class="button--grey"
           to="/posts"
         >
-          进入博客
+          进入
         </NuxtLink>
       </div>
     </div>
