@@ -7,7 +7,7 @@
 
 <style>
 .blog-l {
-  padding: 30px 28px;
+  padding: 30px 26px;
 }
 .blog-l-title {
   font-size: 16px;
